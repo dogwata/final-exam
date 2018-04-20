@@ -1,7 +1,7 @@
 var app = new Vue({
   el: '#app',
   data: {
-    testPhotos: [ { path: '/photos/mountain.jpg',
+    photos: [ { path: '/photos/mountain.jpg',
 		    attribution: 'Wendelin Jacober',
 		    original: 'https://www.flickr.com/photos/wendelinjacober/31763413875/in/photolist-QoPNjP-6hPUf-4C4d3J-5JB4ms-fNFC8t-5i24so-aVwo6F-AbUvu-7fVpVr-RUkNa7-bpThgu-kyyEf4-bvDE1b-9T21o8-6n9oAJ-5MQzoB-S3i8TJ-5zh6fK-JfhkBL-bv4kfQ-4sU4AW-P2cjhQ-5Q1hv9-8nTCN3-r3wwVY-jnE45z-aStYjP-7uPHkr-paCy38-5UptAb-3y7e8-djXWrH-78QKEV-3gPxBa-5V6g41-hcB1MR-7uPiTe-8C68ik-T4wj2r-5wNoFA-qrddA-6nvNR3-fo1MeZ-qZZ7xF-aK6CPe-6o32kc-arE5Tx-gPegwE-z1uzP-bnUZHA'
 		  },
@@ -22,9 +22,4 @@ var app = new Vue({
 		    original: 'https://www.flickr.com/photos/gnuckx/3667269012/in/photolist-6A4Hj5-ejGC9C-6zZxek-23fLveF-22b7TcQ-DAYFLt-9ELUwg-TLjbf2-3chrHG-GS4Emf-rDSMc8-ejASpg-ejGZEG-7hpKXx-5RCuXr-epCQg-bghrTB-ejGBUy-pMxxUf-aM8KSt-AX6Ywr-ejGAPw-5eCEbf-Z8oJAG-6A2gKg-6A55hw-6zZPXD-6A534J-6A6rkJ-7vVaCK-6A6pP9-pmRTHX-q4GU3E-pB2ifw-ejGUK1-5dwbZ4-6zZxwR-6zZyo2-G4hxWL-Ger4h-dPNp4Y-6zZLeD-hsq3wq-q2MyBS-pjCq5z-gBfvG-6A1S9g-TnQex1-p86x41-6A2kxP'
 		  } ]
   },
-  computed: {
-    photos: function() {
-      return this.testPhotos;
-    }
-  }
 });
