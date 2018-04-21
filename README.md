@@ -14,7 +14,7 @@ sites that provide an exact solution to the problems I give you (e.g. a Stack Ov
 
 # Starting the final exam
 
-To start the final exam, you must follow this GitHub Classroom link. This will create a private
+To start the final exam, you must follow this [GitHub Classroom link](https://classroom.github.com/a/iWV_Jz5B). This will create a private
 repository for you using our classroom site. We will only grade repositories created and submitted
 this way.
 
