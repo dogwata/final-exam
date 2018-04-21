@@ -10,7 +10,7 @@ export default new Vuex.Store({
     entries: [],
   },
   getters: {
-    entries: state => state.entries,
+    getEntries: state => state.entries,
   },
   mutations: {
     setEntries (state, entries) {
@@ -18,7 +18,7 @@ export default new Vuex.Store({
     },
   },
   actions: {
-    getUserTweets(context,user) {
+    getEntries(context,user) {
       return axios.get("/api/entries").then(response => {
 	return context.commit('setEntries',response.data.entries);
       }).catch(err => {
