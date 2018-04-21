@@ -12,7 +12,7 @@ const config = require('./knexfile')[env];
 const knex = require('knex')(config);
 
 app.get('/api/entries', (req, res) => {
-  knex('entries').then(entries => {
+  knex('entries').orderBy('created','desc').then(entries => {
       res.status(200).json({entries:entries});
     }).catch(error => {
       console.log(error);
