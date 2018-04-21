@@ -98,7 +98,7 @@ the default template page instead. It should look like this:
 
 ![blogorama](images/blogorama.png)
 
-# Problem 1
+# Problem 1: myPhotos
 
 Modify the HTML and CSS to improve the design of the page.
 
@@ -118,7 +118,7 @@ Color | 5 points
 Consistency | 5 points
 Creativity | 5 points
 
-# Problem 2
+# Problem 2: myPhotos
 
 Modify the application so that it fetches photos from the server.
 
@@ -136,7 +136,7 @@ Pictures are loaded from the database reliably | 25 points
 Most of this working | 20 points
 Some of this working | 10 points
 
-# Problem 3
+# Problem 3: myPhotos
 
 Add a description for photos in the database.
 
@@ -158,7 +158,7 @@ Pictures with a description are loaded from the database reliably, with good des
 Most of this working | 40 points
 Some of this working | 25 points
 
-# Problem 4
+# Problem 4: myPhotos
 
 Modify the application to allow viewing one photo at a time.
 
@@ -178,7 +178,7 @@ Can switch between one picture and all pictures and uses new REST API endpoint |
 Most of this working | 40 points
 Some of this working | 25 points
 
-# Problem 5
+# Problem 5: blog-o-rama
 
 Modify the application to show the blog posts on the front page.
 
