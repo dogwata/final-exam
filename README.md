@@ -58,6 +58,8 @@ the database.
 When you start My Photos for the first time, it will *not* be using the database. It will display a set
 of photos that are hard-coded into the application. It should look like this:
 
+![myphotos](images/myphotos.png)
+
 ## Blog-o-rama
 
 The Blog-o-rama app is a simple blogging application. It is so simple that all it does is display a
@@ -94,6 +96,7 @@ will not need to run this script or modify the back end in any way.
 When you start Blog-o-rama for the first time, it will *not* show the blog entries. It will display
 the default template page instead. It should look like this:
 
+![blogorama](images/blogorama.png)
 
 # Problem 1
 
