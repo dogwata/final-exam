@@ -100,7 +100,7 @@ the default template page instead. It should look like this:
 
 # Problem 1: My Photos
 
-Modify the HTML and CSS to improve the design of the page.
+Modify the My Photos HTML and CSS to improve the design of the page.
 
 * You should pick a color scheme from `color.adobe.com` or some other site. Document which color
 scheme you use by leaving a comment at the top of `styles.css`.
@@ -120,7 +120,7 @@ Creativity | 5 points
 
 # Problem 2: My Photos
 
-Modify the application so that it fetches photos from the server.
+Modify the My Photos application so that it fetches photos from the server.
 
 * As currently written, the application uses photos that are hard-coded. Modify `script.js` so that
 it instead fetches photos from the server.
@@ -138,7 +138,7 @@ Some of this working | 10 points
 
 # Problem 3: My Photos
 
-Add a description for photos in the database.
+In the My Photos application, add a description for photos in the database.
 
 * Write a migration to add a string column called `description` to the photos table in the database
   and run this migration.
@@ -160,7 +160,7 @@ Some of this working | 25 points
 
 # Problem 4: My Photos
 
-Modify the application to allow viewing one photo at a time.
+Modify the My Photos application to allow viewing one photo at a time.
 
 * Write a new REST API endpoint to fetch one picture.
 
@@ -180,7 +180,7 @@ Some of this working | 25 points
 
 # Problem 5: Blog-o-rama
 
-Modify the application to show the blog posts on the front page.
+Modify the Blog-o-rama application to show the blog posts on the front page.
 
 * Add a component and change the router to use this component.
 
