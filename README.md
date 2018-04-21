@@ -51,7 +51,7 @@ You can visit the app in your browser at `localhost:8080`.
 
 Node will serve files from the `public` directory. This application has HTML in `index.html`, CSS in
 `styles.css`, and JavaScript using Vue in `script.js`. The server uses Node, Express, and knex. Data
-is stord in a SQLite database called db.sqlite3. The database is already configured for you in
+is stored in a SQLite database called db.sqlite3. The database is already configured for you in
 `knexfile.js`. I have already run the migration listed in `migrations`. I have also put some data in
 the database.
 
@@ -184,7 +184,7 @@ Modify the Blog-o-rama application to show the blog posts on the front page.
 
 * Add a component and change the router to use this component.
 
-* Install and use the [moment](http://momentjs.com/) library to display the date using
+* Install and use the [moment](http://momentjs.com/) library inside your component to display the date using
   `moment(date).format('MMMM Do YYYY, h:mm a');`
 
 * Follow the design principles we learned to develop a usable site. Local styles can be placed
@@ -197,3 +197,7 @@ Item | Points
 Displays all of the blog entries, using moment correctly, and has a good design | 50 points
 Most of this working or a poor design | 40 points
 Some of this working | 25 points
+
+# Turn in the Final Exam
+
+To turn in the final exam, submit the URL for your repository in the Final Exam assignment using Canvas.
