@@ -25,5 +25,28 @@ export default new Vuex.Store({
 	console.log("getEntries failed:",err);
       });
     },
+    addEntries: function() {
+        axios.post("/api/entries", {
+            text: this.form.text,
+        }).then(response => {
+            this.form.text = "";
+            this.getEntries();
+            return true;
+        }).catch(err => {
+        });
+    },
+    deleteEntries: function(id) {
+        axios.delete("/api/entries/" + id).then(response => {
+            this.getEntries();
+            return true;
+        }).catch(err => {
+        });
+    },
+    updateEntries: function(entries) {
+        axios.put("/api/entries/" + entries.id, entries).then(response => {
+            this.getEntries();
+            return true;
+        }).catch(err => {
+        });
   }
 });
