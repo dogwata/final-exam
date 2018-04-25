@@ -1,7 +1,7 @@
 var app = new Vue({
   el: '#app',
   data: {
-/* Couldn't get the following to work once I edited things to have descriptions show up in server records:
+/* Couldn't get the following to work once I edited things to have descriptions show up in server database:
     ip: "localhost"
     photos: {}},
     attribution: [],
